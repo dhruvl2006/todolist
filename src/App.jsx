@@ -144,7 +144,7 @@ function App() {
           {todos.length === 0 && (
             <div className="mt-2 px-3 flex items-center">
               <h1 className="text-[20px] font-bold text-gray-600">No todos to display...!</h1>
-              <button onClick={focusInput} className="text-[20px] px-4 py-2 rounded-full hover:font-bold hover:underline duration-200 hover:scale-110">Add one</button>
+              <button onClick={focusInput} className="text-[20px] px-4 py-2 rounded-full hover:font-bold hover:underline duration-200 hover:scale-110 text-black dark:text-white">Add one</button>
             </div>
           )}
           {todos.map(todoItem => (
