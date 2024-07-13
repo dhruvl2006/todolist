@@ -142,7 +142,7 @@ function App() {
         <div className="todo duration-200">
           <h1 className="font-bold text-[23px] text-black dark:text-white">Your Todos</h1>
           {todos.length === 0 && (
-            <div className="mt-2 px-3 flex items-center">
+            <div className="mt-2 px-3 flex items-center max-[450px]:flex-col">
               <h1 className="text-[20px] font-bold text-gray-600">No todos to display...!</h1>
               <button onClick={() => setAdd(true)} className="text-[20px] px-4 py-2 rounded-full hover:font-bold hover:underline duration-200 hover:scale-110 text-black dark:text-white">Add one</button>
             </div>
