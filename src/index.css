@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your global CSS file */
+html {
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
